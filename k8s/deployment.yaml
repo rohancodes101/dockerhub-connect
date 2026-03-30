@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rohancodes101/dockerhub-connect:latest # GA will update this tag
+        image: rohanworld101/my-html-app:189419b3349e31b34334f0084455963327643701
         ports:
         - containerPort: 80
 ---
