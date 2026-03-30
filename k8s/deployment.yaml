@@ -24,10 +24,11 @@ kind: Service
 metadata:
   name: html-service
 spec:
+  type: NodePort  #ClusterIP is bydefault, changing to NodePort
   selector:
     app: html-app
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: ClusterIP
+      nodePort: 30080 # Mapping VM Port 30080 -> port 80
