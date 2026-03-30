@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rohanworld101/my-html-app:7590fd5758d0596aa5daff5b072bd404fdfa6755
+        image: rohanworld101/my-html-app:9bccded1e71e951c07fbec90407a67e5cd71f4a5
         ports:
         - containerPort: 80
 ---
